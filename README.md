@@ -11,6 +11,12 @@ A comprehensive gate management system for residential societies, similar to MyG
 - Real-time Notifications
 - Staff Attendance
 - Emergency Contacts
+- **Comprehensive Help System**
+  - Role-based FAQs and User Guides
+  - Support Ticket System
+  - Searchable Help Content
+  - Admin Help Management
+  - Floating Help Widget
 
 ## Tech Stack
 

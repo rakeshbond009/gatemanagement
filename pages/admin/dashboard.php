@@ -33,6 +33,8 @@ $conn = connectDB();
                     <li><a href="staff.php">Staff Management</a></li>
                     <li><a href="reports.php">Reports</a></li>
                     <li><a href="settings.php">Settings</a></li>
+                    <li><a href="help_management.php">Help Management</a></li>
+                    <li><a href="../help.php"><i class="fas fa-question-circle"></i> Help</a></li>
                     <li><a href="../../api/auth.php?logout=1">Logout</a></li>
                 </ul>
             </nav>

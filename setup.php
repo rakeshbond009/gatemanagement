@@ -21,8 +21,12 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Read the SQL file
+// Read the SQL files
 $sql_file = file_get_contents(__DIR__ . '/database/gate_management.sql');
+$help_sql_file = file_get_contents(__DIR__ . '/database/help_system.sql');
+
+// Combine SQL files
+$sql_file .= "\n" . $help_sql_file;
 
 // Split the SQL file into individual queries
 $queries = array_filter(array_map('trim', explode(';', $sql_file)));
