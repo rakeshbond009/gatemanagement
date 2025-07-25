@@ -150,6 +150,7 @@ $notifications = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
                     <li><a href="dashboard.php" class="active">Dashboard</a></li>
                     <li><a href="visitors.php">My Visitors</a></li>
                     <li><a href="profile.php">My Profile</a></li>
+                    <li><a href="../help.php"><i class="fas fa-question-circle"></i> Help</a></li>
                     <li><a href="../../api/auth.php?logout=1">Logout</a></li>
                 </ul>
             </nav>
